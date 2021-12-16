@@ -71,4 +71,9 @@
 - An if statement is a control flow statement, where if the condition is true, it performs some kind of action
 
 ### Understanding scope in Java
-### While loops
+- The scope of a variable is the part of the program where a piece of code is accessible or in which it can be used
+- Curly braces `{}` create different blocks or regions in Java
+### While Loop
+- A while loop allows code to be executed repeatedly based on a Boolean condition
+-
+
