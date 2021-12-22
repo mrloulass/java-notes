@@ -75,5 +75,27 @@
 - Curly braces `{}` create different blocks or regions in Java
 ### While Loop
 - A while loop allows code to be executed repeatedly based on a Boolean condition
--
+
+## Debugging in Java
+- involves locating and fixing a program's errors (bugs)
+
+### Print Statement
+- use print statements to print  the value of a given variable and follow the control flow of a code
+
+### Syntax Errors
+- are misspelled variable or missing semicolon
+- can cause your code to fail before it runs
+- the code must be in the right format for a computer to read
+
+### Logical Errors
+- deal with the logic of a program
+- the program doesn't act as the user expects
+
+### IDE: Integrated Development Environment
+- helps compile and run Java programs
+- helps debug Java programs by detecting and revealing errors
+  - Breakpoints: an intentional stopping point put into a program for debugging purposes. This allow us to inspect its internal state
+    - click the line of code number and run the code in debug mode
+    - internal state: variable values, the result of certain lines of code is executed ot not
+
 
