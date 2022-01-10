@@ -13,20 +13,21 @@ public class CodeChallenge01 {
         System.out.println(question);
         // Write a print statement giving the answer choices
         System.out.println("Choose one of the following: " + choiceOne + " , " + choiceTwo + " , or " + choiceThree + ".");
-        // Have the user input an answer
-        Scanner input = new Scanner(System.in);
-        // Retrieve the user's input
-        String userInput = input.next();
+        try (// Have the user input an answer
+        Scanner input = new Scanner(System.in)) {
+            // Retrieve the user's input
+            String userInput = input.next();
 
-        // If the user's input matches the correctAnswer...
-        if(correctAnswer.equals(userInput.toLowerCase())) {
-            // then the user is correct and we want to print out a congrats message to the user.
-            System.out.println("You are correct!!");
-        }else {
-            // If the user's input does not match the correctAnswer...
-                // then the user is incorrect and we want to print out a message saying that the user is incorrect as well as what the correct choice was.
-                System.out.println("You are wrong. The answer is: " + correctAnswer);
+            // If the user's input matches the correctAnswer...
+            if(correctAnswer.equals(userInput.toLowerCase())) {
+                // then the user is correct and we want to print out a congrats message to the user.
+                System.out.println("You are correct!!");
+            }else {
+                // If the user's input does not match the correctAnswer...
+                    // then the user is incorrect and we want to print out a message saying that the user is incorrect as well as what the correct choice was.
+                    System.out.println("You are wrong. The answer is: " + correctAnswer);
 
+            }
         }
     }
 }

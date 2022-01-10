@@ -8,12 +8,17 @@
   - Web servers
   - Embedded systems
 
-## Java Runtime Environment (JRE)
-- use to run Java applications 
-
 ## Java Development Kit (JDK)
-- use to build and develop Java applications 
+- use for building and developing Java applications 
 - Includes the JRE and other tools to create Java programs
+
+### Java Runtime Environment (JRE)
+- use for running Java applications 
+- has Libraries and classes
+- JVM Java Virtual Machine
+
+#### Java Virtual Machine (JVM)
+- execute Java programs
 
 ## Running Java code
 - 1st: need to complied Java source code to Java byte code `javac Filename.java`
@@ -29,26 +34,6 @@
   - [IntelliJ IDEA](https://www.jetbrains.com/idea/)
   - [Eclipse](https://www.eclipse.org/)
   - [NetBeans](https://netbeans.apache.org/)
-
-## Data Types
-
-### Primitive Types
-
-- Boolean: represent a true or false value (Ex: Is a light on or off)
-- Int: represent a whole number (Ex: number of siblings)
-- Double: represent a decimal number (Ex: your GPA 3.3)
-- Char: represent a single letter or symbol (Ex: your First initial)
-
-### Reference Types
-
-- String: a sequence of ordered characters (Ex: a word or person's name) or built out of characters
-  - String value: will have quotation marks around it (`"speaker"`)
-  - String variable: `string myFavoriteWord = "speaker"`
-  - String operation:
-    - charAt: is a special string operation that allows us to access a character at a specific location within the string
-      - `variable.charAt(index)`
-      - Input: index of the wanted character
-      - Output: the value of the character at the inputted index
 
 ### Input/Output
 - Output using `System.out.println()` to the console
@@ -98,4 +83,32 @@
     - click the line of code number and run the code in debug mode
     - internal state: variable values, the result of certain lines of code is executed ot not
 
+## Package
+- organizing and group your classes together
 
+## Comments
+- single line uses `//` in the begin
+- multi line uses `/*can add multi comments between */`
+
+## Variables
+- is a box that store data types
+
+## Data Types
+
+### Primitive Types
+
+- Boolean: represent a true or false value (Ex: Is a light on or off)
+- Int: represent a whole number (Ex: number of siblings)
+- Double: represent a decimal number (Ex: your GPA 3.3)
+- Char: represent a single letter or symbol (Ex: your First initial)
+
+### Reference Types
+
+- String: a sequence of ordered characters (Ex: a word or person's name) or built out of characters
+  - String value: will have quotation marks around it (`"speaker"`)
+  - String variable: `string myFavoriteWord = "speaker"`
+  - String operation:
+    - charAt: is a special string operation that allows us to access a character at a specific location within the string
+      - `variable.charAt(index)`
+      - Input: index of the wanted character
+      - Output: the value of the character at the inputted index
